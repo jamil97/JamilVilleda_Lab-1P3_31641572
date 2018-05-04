@@ -5,14 +5,48 @@
 using namespace std;
 
 void circulos(){
+
 int opcion = 0;
 	
 cout<< "Ingrese el metodo por el que desea ver la colision de los circulos"<<endl;
 cout<< "1. Ingresar coordenadas manualmente"<<endl;
+cout<< "2. Ingresar las coordenadas aleatorias"<<endl;
+
+cin>>opcion;
+
+if(opcion ==1){
+
+int coordenada1 = 0;
+int coordenada2 = 0;
+int coordenada3 = 0;
+int coordenada4 = 0;
+
+cout<<"Ingrese la coordenada 1 del primer circulo"<<endl;
+cin>>coordenada1;
+cout<<"Ingrese la coordenada 2 del primer circulo"<<endl;
+cin>>coordenada2;
+cout<<"Ingrese la coordenada 1 del segundo circulo"<<endl;
+cin>>coordenada3;
+cout<<"Ingrese la coordenada 2 del segundo circulo"<<endl;
+cin>>coordenada4;
+
+int restaprimerosdigitos = coordenada1-coordenada2;
+int restasegundosdigitos = coordenada3-coordenada4;
+
+int 
 
 
 
 
+
+
+
+}
+
+if(opcion ==2){
+	
+
+}
 
 
 }
@@ -37,8 +71,7 @@ char angulo3triangulo2 = '0';
 
 cout<<"Ingrese el primer lado del primer triangulo"<<endl;
 cin>>lado1triangulo1;
-if(isdigit(lado1triangulo1){
-int lado1 = 
+if(isdigit(lado1triangulo1)){
 
 }		
 cout<<"Ingrese el segundo lado del primer triangulo"<<endl;
@@ -83,6 +116,8 @@ triangulos();
 
 
 if (opcion==2){
+
+	circulos();
 
 
 }
