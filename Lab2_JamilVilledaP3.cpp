@@ -26,11 +26,16 @@ int coordenada4x = 0;
 int coordenada4y = 0;
 
 int opcioncentro = 0;
+int opcionborde = 0;
 
-int centro1x;
-int centro1y;
-int centro2x;
-int centro2y;
+int centro1x=0;
+int centro1y=0;
+int centro2x=0;
+int centro2y=0;
+int borde1x=0;
+int borde1y=0;
+int borde2x=0;
+int borde2y=0;
 
 
 cout<<"Ingrese la coordenada 1 en x"<<endl;
@@ -92,9 +97,33 @@ centro2y = coordenada3y;
 
 }
 if(opcioncentro==4){
-centro2x = coordenada4y	
+centro2x = coordenada4x;
+centro2y = coordenada4y;
+}
+cout<<"Ingrese el numero de coordenada que desea que sea el borde del centro#1 (1,2,3,4)"<<endl;
+cin>>opcionborde;
+
+if(opcionborde ==1){
+borde1x = coordenada1x;
+borde1y = coordenada1y;
+}
+if(opcionborde ==2){
+borde1x = coordenada2x;
+borde2y = coordenada2y;
+}
+if(opcionborde ==3){
+
 
 }
+if(opcionborde ==4){
+
+
+}
+
+
+
+
+
 
 
 int restaprimerosdigitos;
