@@ -166,6 +166,22 @@ int cuadradosegundacoordenadacirculo2 = pow(restasegundascoordenadascirculo2, 2)
 int sumainternacirculo2 = cuadradoprimeracoordenadacirculo2 + cuadradosegundacoordenadacirculo2;
 int sumatotalradiocirculo2 = sqrt(sumainternacirculo2);
 
+int restaprimerascoordenadascentros = centro2x - centro1x;
+int restasegundascoordenadascentros = centro2y - centro2x;
+
+int cuadradoprimeracoordenadacentro = pow(restaprimerascoordenadascentros,2);
+int cuadradosegundacoordenadacentro = pow(restasegundascoordenadascentros,2);
+
+int sumainternacentros = cuadradoprimeracoordenadacentro + cuadradosegundacoordenadacentro;
+
+int sumatotalcentros = sqrt(sumainternacentros);
+
+int sumaradiostotal = sumatotalradiocirculo1 + sumatotalradiocirculo2;
+
+if(sumaradiostotal > sumatotalcentros){
+cout<<"Los circulos chocan entre si"<<endl;
+
+}
 
 
 }
@@ -227,29 +243,18 @@ cin>>angulo3triangulo2;
 }
 
 
-
+//Declaracion del main empieza aca.
 int main(){
-int opcion = 0;
+
+int opcion2 = 0;
 cout<<"Porfavor ingrese la opcion deseada: "<<endl;
 
-cin>>opcion;
-
-if (opcion==1){
-
+cin>>opcion2;
+if (opcion2==1){
 triangulos();
-
-
-}
-
-
-if (opcion==2){
-
-	circulos();
-
-
-}
-
-if (opcion==3){
+} else if (opcion2==2){
+circulos();
+} else if (opcion2==3){
 
 
 }
