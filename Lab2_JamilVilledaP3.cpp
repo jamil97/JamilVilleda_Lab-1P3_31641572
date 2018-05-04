@@ -148,7 +148,25 @@ borde2x = coordenada4x;
 borde2y = coordenada4y;
 }
 
-int restaprimerasdistanciaradios =0;
+int restaprimerascoordenadas = borde1x - centro1x;
+int restasegundacoordenadas = borde1y - centro1y;
+
+int cuadradoprimeracoordenada = pow(restaprimerascoordenadas,2);
+int cuadradosegundacoordenada = pow(restasegundacoordenadas,2);
+
+int sumainterna = cuadradoprimeracoordenada + cuadradosegundacoordenada;
+int sumatotalradiocirculo1 = sqrt(sumainterna);
+
+int restaprimerascoordenadascirculo2 = borde2x - centro2x;
+int restasegundascoordenadascirculo2 = borde2y - centro2y;
+
+int cuadradoprimeracoordenadacirculo2 = pow(restaprimerascoordenadascirculo2, 2);
+int cuadradosegundacoordenadacirculo2 = pow(restasegundascoordenadascirculo2, 2);
+
+int sumainternacirculo2 = cuadradoprimeracoordenadacirculo2 + cuadradosegundacoordenadacirculo2;
+int sumatotalradiocirculo2 = sqrt(sumainternacirculo2);
+
+
 
 }
 
