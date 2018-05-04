@@ -106,28 +106,49 @@ cin>>opcionborde;
 if(opcionborde ==1){
 borde1x = coordenada1x;
 borde1y = coordenada1y;
+opcionborde=0;
 }
 if(opcionborde ==2){
 borde1x = coordenada2x;
 borde2y = coordenada2y;
+opcionborde=0;
 }
+
 if(opcionborde ==3){
-
-
+borde1x = coordenada3x;
+borde1y = coordenada3y;
+opcionborde=0;
 }
 if(opcionborde ==4){
+borde1x = coordenada4x;
+borde1y = coordenada4y;
+opcionborde=0;
+}
 
+cout<<"Ingrese el numero de coordenada que desea que sea el borde del centro#2 (1,2,3,4)"<<endl;
+cin>>opcionborde;
+
+if(opcionborde==1){
+borde2x = coordenada1x;
+borde2y = coordenada1y;
+}
+if(opcionborde==2){
+borde2x = coordenada2x;
+borde2y = coordenada2y;
 
 }
 
+if(opcionborde==3){
+borde2x = coordenada3x;
+borde2y = coordenada3y;
+}
 
+if(opcionborde==4){
+borde2x = coordenada4x;
+borde2y = coordenada4y;
+}
 
-
-
-
-
-int restaprimerosdigitos;
-int restasegundosdigitos;
+int restaprimerasdistanciaradios =0;
 
 }
 
