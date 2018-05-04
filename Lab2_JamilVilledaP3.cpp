@@ -16,30 +16,89 @@ cin>>opcion;
 
 if(opcion ==1){
 
-int coordenada1 = 0;
-int coordenada2 = 0;
-int coordenada3 = 0;
-int coordenada4 = 0;
+int coordenada1x = 0;
+int coordenada1y = 0;
+int coordenada2x = 0;
+int coordenada2y = 0;
+int coordenada3x = 0;
+int coordenada3y = 0;
+int coordenada4x = 0;
+int coordenada4y = 0;
 
-cout<<"Ingrese la coordenada 1 del primer circulo"<<endl;
-cin>>coordenada1;
-cout<<"Ingrese la coordenada 2 del primer circulo"<<endl;
-cin>>coordenada2;
-cout<<"Ingrese la coordenada 1 del segundo circulo"<<endl;
-cin>>coordenada3;
-cout<<"Ingrese la coordenada 2 del segundo circulo"<<endl;
-cin>>coordenada4;
+int opcioncentro = 0;
 
-int restaprimerosdigitos = coordenada1-coordenada2;
-int restasegundosdigitos = coordenada3-coordenada4;
-
-int 
+int centro1x;
+int centro1y;
+int centro2x;
+int centro2y;
 
 
+cout<<"Ingrese la coordenada 1 en x"<<endl;
+cin>>coordenada1x;
+cout<<"Ingrese la coordenada 1 en y"<<endl;
+cin>>coordenada1y;
+cout<<"Ingrese la coordenada 2 en x"<<endl;
+cin>>coordenada2x;
+cout<<"Ingrese la coordenada 2 en y"<<endl;
+cin>>coordenada2y;
+cout<<"Ingrese la coordenada 3 en x"<<endl;
+cin>>coordenada3x;
+cout<<"Ingrese la coordenada 3 en y"<<endl;
+cin>>coordenada3y;
+cout<<"Ingrese la coordenada 4 en x"<<endl;
+cin>>coordenada4x;
+cout<<"Ingrese la coordenada 4 en y"<<endl;
+cin>>coordenada4y;
+
+cout<<"Que coordenadas ingresadas desea que sean el centro primero circulo? (1,2,3,4)"<<endl;
+cin>>opcioncentro;
+
+if(opcioncentro==1){
+centro1x= coordenada1x;
+centro1y= coordenada1y;
+opcioncentro=0;
+}
+if(opcioncentro==2){
+centro1x= coordenada2x;
+centro1x= coordenada2y;
+opcioncentro=0;
+}
+if(opcioncentro==3){
+centro1x=coordenada3x;
+centro1y=coordenada3y;
+opcioncentro=0;
+}
+if(opcioncentro==4){
+centro1x=coordenada4x;
+centro1y=coordenada4y;
+opcioncentro=0;
+}
+
+cout<<"Que coordenadas ingresadas desea que sean el centro del segundo circulo? (1,2,3,4)"<<endl;
+cin>>opcioncentro;
+
+if(opcioncentro==1){
+centro2x = coordenada1x;
+centro2y = coordenada1y;
+opcioncentro = 0;
+}
+if(opcioncentro==2){
+centro2x = coordenada2x;
+centro2y = coordenada2y;
+}
+if(opcioncentro==3){
+centro2x = coordenada3x;
+centro2y = coordenada3y;
+
+}
+if(opcioncentro==4){
+centro2x = coordenada4y	
+
+}
 
 
-
-
+int restaprimerosdigitos;
+int restasegundosdigitos;
 
 }
 
