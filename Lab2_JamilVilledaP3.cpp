@@ -240,6 +240,10 @@ cin>>angulo2triangulo2;
 cout<<"Ingrese el tercer angulo del segundo triangulo"<<endl;
 cin>>angulo3triangulo2;
 
+
+
+
+
 }
 
 
